@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:textAlignment="center"
+        android:text="Quản lí điện nước"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/btnThemDienNuoc"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="25dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/custom_image_buttton"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img" />
+
+        <ImageButton
+            android:id="@+id/btnXemDSDienNuoc"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="25dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/custom_image_buttton"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_marginBottom="50dp">
+
+        <ImageButton
+            android:id="@+id/btnThemPhong"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="25dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/custom_image_buttton"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_4" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="25dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@drawable/custom_image_buttton"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_2" />
+    </LinearLayout>
+
+</LinearLayout>
